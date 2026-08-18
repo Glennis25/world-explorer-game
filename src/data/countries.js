@@ -1,3 +1,7 @@
+// src/data/countries.js
+// Complete country data for World Explorer Game
+// Format: 10 countries with 3 places, 1 animal, and 4 quiz questions each
+
 export const countriesData = [
   {
     id: 1,
@@ -7,30 +11,30 @@ export const countriesData = [
     animal: {
       name: 'Kangaroo',
       emoji: '🦘',
-      description: 'A large marsupial that hops across the Australian outback',
-      fact: 'Kangaroos can jump up to 30 feet in a single leap!'
+      description: 'A large marsupial that can hop very fast and high. Kangaroos have powerful back legs and a long tail that helps them balance.',
+      fact: 'Kangaroos can jump up to 30 feet in a single hop!'
     },
     places: [
       {
         id: 1,
         name: 'Sydney Opera House',
         emoji: '🏢',
-        description: 'A beautiful white building by the sea',
-        fact: 'It looks like giant shells or sails!'
+        description: 'A beautiful white building by the sea. It\'s one of the most famous buildings in the world and looks like giant shells or sails.',
+        fact: 'It took 14 years to build and cost millions of dollars!'
       },
       {
         id: 2,
-        name: 'Uluru (Ayers Rock)',
-        emoji: '🏔️',
-        description: 'A massive red rock in the desert',
-        fact: 'It changes color at sunset - red, orange, and purple!'
+        name: 'Great Barrier Reef',
+        emoji: '🪸',
+        description: 'The largest coral reef system in the world. It\'s home to thousands of colorful fish and other sea creatures.',
+        fact: 'You can see it from space! It\'s so big and beautiful!'
       },
       {
         id: 3,
-        name: 'Great Barrier Reef',
-        emoji: '🪸',
-        description: 'A magical underwater world with colorful fish',
-        fact: 'It\'s so big it can be seen from space!'
+        name: 'Uluru (Ayers Rock)',
+        emoji: '🏜️',
+        description: 'A giant red rock in the desert. It\'s sacred to the Aboriginal people and is one of Australia\'s most amazing natural wonders.',
+        fact: 'It changes color at sunrise and sunset - red, orange, and purple!'
       }
     ],
     quiz: [
@@ -42,21 +46,21 @@ export const countriesData = [
       },
       {
         id: 2,
-        question: 'What is the Sydney Opera House made to look like?',
-        correctAnswer: 'Shells',
-        options: ['Shells', 'Castle', 'Mountain', 'Bridge']
+        question: 'What is this building?',
+        correctAnswer: 'Sydney Opera House',
+        options: ['Sydney Opera House', 'Big Ben', 'Eiffel Tower', 'Statue of Liberty']
       },
       {
         id: 3,
-        question: 'What is Uluru famous for?',
-        correctAnswer: 'Red Rock',
-        options: ['Red Rock', 'Mountain Snow', 'Big Tree', 'Bridge']
+        question: 'Which reef is the largest in the world?',
+        correctAnswer: 'Great Barrier Reef',
+        options: ['Great Barrier Reef', 'Red Barrier Reef', 'Blue Barrier Reef', 'Rainbow Reef']
       },
       {
         id: 4,
-        question: 'Which animal can jump really far?',
-        correctAnswer: 'Kangaroo',
-        options: ['Kangaroo', 'Turtle', 'Fish', 'Bird']
+        question: 'What color is Uluru?',
+        correctAnswer: 'Red',
+        options: ['Red', 'Blue', 'Yellow', 'Green']
       }
     ]
   },
@@ -68,56 +72,56 @@ export const countriesData = [
     animal: {
       name: 'Toucan',
       emoji: '🦜',
-      description: 'A colorful bird with a very large beak',
-      fact: 'Their beak is bigger than their head, but it\'s very light!'
+      description: 'A colorful bird with a very large beak. Toucans live in the rainforest and eat fruit from tall trees.',
+      fact: 'A toucan\'s beak is almost as long as its whole body!'
     },
     places: [
       {
         id: 1,
         name: 'Christ the Redeemer',
         emoji: '🗿',
-        description: 'A giant statue of Jesus with open arms',
-        fact: 'It watches over the city of Rio de Janeiro!'
+        description: 'A giant statue of Jesus with arms open wide. It sits on top of a mountain and watches over the city of Rio de Janeiro.',
+        fact: 'This statue is one of the New 7 Wonders of the World!'
       },
       {
         id: 2,
         name: 'Amazon Rainforest',
         emoji: '🌳',
-        description: 'The biggest forest in the world',
-        fact: 'It\'s home to millions of animals and plants!'
+        description: 'The biggest rainforest in the world! It\'s home to millions of animals and plants, and it\'s very wet and green.',
+        fact: 'The Amazon rainforest is sometimes called the "lungs of the Earth"!'
       },
       {
         id: 3,
         name: 'Iguazu Falls',
-        emoji: '💧',
-        description: 'Powerful waterfalls that make a big splash',
-        fact: 'There are hundreds of waterfalls here!'
+        emoji: '💦',
+        description: 'Massive waterfalls that flow over cliffs. The water is so powerful and creates a beautiful mist and rainbow.',
+        fact: 'Iguazu Falls has more than 275 individual waterfalls!'
       }
     ],
     quiz: [
       {
         id: 1,
-        question: 'What colorful bird lives in Brazil?',
-        correctAnswer: 'Toucan',
-        options: ['Toucan', 'Penguin', 'Parrot', 'Eagle']
+        question: 'What is this statue?',
+        correctAnswer: 'Christ the Redeemer',
+        options: ['Christ the Redeemer', 'Jesus Statue', 'Holy Monument', 'Angel Statue']
       },
       {
         id: 2,
-        question: 'What is the giant statue called?',
-        correctAnswer: 'Christ the Redeemer',
-        options: ['Christ the Redeemer', 'Big Buddha', 'Stone Man', 'Jesus Tower']
+        question: 'Which bird lives in Brazil?',
+        correctAnswer: 'Toucan',
+        options: ['Toucan', 'Penguin', 'Eagle', 'Parrot']
       },
       {
         id: 3,
-        question: 'Which forest is the biggest in the world?',
-        correctAnswer: 'Amazon',
-        options: ['Amazon', 'Pine Forest', 'Dark Forest', 'Bamboo']
+        question: 'What is the biggest rainforest?',
+        correctAnswer: 'Amazon Rainforest',
+        options: ['Amazon Rainforest', 'Congo Rainforest', 'Daintree Rainforest', 'Southeast Rainforest']
       },
       {
         id: 4,
-        question: 'What does a toucan have that\'s really big?',
-        correctAnswer: 'Beak',
-        options: ['Beak', 'Wings', 'Tail', 'Feet']
+        question: 'Which waterfalls are in Brazil?',
+        correctAnswer: 'Iguazu Falls',
+        options: ['Iguazu Falls', 'Niagara Falls', 'Victoria Falls', 'Angel Falls']
       }
     ]
   },
@@ -129,56 +133,56 @@ export const countriesData = [
     animal: {
       name: 'Moose',
       emoji: '🫎',
-      description: 'A very large deer with big antlers',
-      fact: 'Moose are the tallest of all deer species!'
+      description: 'A very large deer with huge antlers. Moose live in cold forests and are the biggest deer in the world.',
+      fact: 'A moose can grow as tall as a basketball hoop!'
     },
     places: [
       {
         id: 1,
         name: 'Niagara Falls',
         emoji: '💧',
-        description: 'Huge waterfalls between Canada and the USA',
-        fact: 'Millions of liters of water flow over the falls every minute!'
+        description: 'One of the biggest waterfalls in North America. Millions of gallons of water flow over the edge every second, creating thunder and mist.',
+        fact: 'Niagara Falls is so powerful it could power a whole city!'
       },
       {
         id: 2,
-        name: 'Canadian Rockies',
-        emoji: '🏔️',
-        description: 'Beautiful snow-covered mountains',
-        fact: 'They are home to many animals like bears and eagles!'
+        name: 'Rocky Mountains',
+        emoji: '⛰️',
+        description: 'Tall, snowy mountains that stretch across western Canada. They\'re perfect for skiing and hiking in winter and summer.',
+        fact: 'The Rocky Mountains are over 80 million years old!'
       },
       {
         id: 3,
         name: 'CN Tower',
-        emoji: '🗼',
-        description: 'A very tall tower in Toronto',
-        fact: 'You can see for miles from the top!'
+        emoji: '🏗️',
+        description: 'A super tall tower in Toronto. From the top, you can see the whole city and even across to the United States!',
+        fact: 'The CN Tower was the tallest free-standing building in the world for 34 years!'
       }
     ],
     quiz: [
       {
         id: 1,
-        question: 'What large deer lives in Canada?',
+        question: 'Which animal lives in Canada?',
         correctAnswer: 'Moose',
-        options: ['Moose', 'Reindeer', 'Elk', 'Deer']
+        options: ['Moose', 'Kangaroo', 'Penguin', 'Llama']
       },
       {
         id: 2,
-        question: 'What are the Niagara Falls?',
-        correctAnswer: 'Waterfalls',
-        options: ['Waterfalls', 'Mountains', 'River', 'Lake']
+        question: 'What is this?',
+        correctAnswer: 'Niagara Falls',
+        options: ['Niagara Falls', 'Iguazu Falls', 'Victoria Falls', 'Angel Falls']
       },
       {
         id: 3,
-        question: 'Which tower is in Toronto?',
-        correctAnswer: 'CN Tower',
-        options: ['CN Tower', 'Bell Tower', 'Clock Tower', 'Light Tower']
+        question: 'Which mountains are in Canada?',
+        correctAnswer: 'Rocky Mountains',
+        options: ['Rocky Mountains', 'Andes Mountains', 'Alps', 'Himalayas']
       },
       {
         id: 4,
-        question: 'What does a moose have on its head?',
-        correctAnswer: 'Antlers',
-        options: ['Antlers', 'Horns', 'Crown', 'Feathers']
+        question: 'In which city is the CN Tower?',
+        correctAnswer: 'Toronto',
+        options: ['Toronto', 'Vancouver', 'Montreal', 'Calgary']
       }
     ]
   },
@@ -190,56 +194,56 @@ export const countriesData = [
     animal: {
       name: 'French Bulldog',
       emoji: '🐾',
-      description: 'A small, cute dog with bat-like ears',
-      fact: 'French Bulldogs are very popular in Paris!'
+      description: 'A small, cute dog with big ears and a wrinkly face. French Bulldogs are friendly, playful, and love to cuddle.',
+      fact: 'French Bulldogs can\'t swim very well because of their short legs!'
     },
     places: [
       {
         id: 1,
         name: 'Eiffel Tower',
         emoji: '🗼',
-        description: 'A giant iron tower in Paris',
-        fact: 'It was built in 1889 and is very famous!'
+        description: 'A tall metal tower made of iron in Paris. It was built for a big celebration and is now the most famous symbol of France.',
+        fact: 'The Eiffel Tower is 1,083 feet tall - that\'s taller than 100 grown-ups standing on each other!'
       },
       {
         id: 2,
-        name: 'The Louvre',
+        name: 'Louvre Museum',
         emoji: '🖼️',
-        description: 'A famous art museum with the Mona Lisa',
-        fact: 'It\'s the most visited museum in the world!'
+        description: 'A huge museum in Paris with the most famous paintings and art in the world, including the Mona Lisa.',
+        fact: 'The Louvre has over 35,000 paintings and artworks!'
       },
       {
         id: 3,
-        name: 'Palace of Versailles',
-        emoji: '👑',
-        description: 'A beautiful royal palace with huge gardens',
-        fact: 'Kings and queens used to live here!'
+        name: 'Notre-Dame Cathedral',
+        emoji: '⛪',
+        description: 'A beautiful church in Paris with amazing stone carvings and tall towers. It\'s almost 1,000 years old!',
+        fact: 'Notre-Dame took 182 years to build!'
       }
     ],
     quiz: [
       {
         id: 1,
-        question: 'What cute dog comes from France?',
-        correctAnswer: 'French Bulldog',
-        options: ['French Bulldog', 'Poodle', 'Dachshund', 'Husky']
+        question: 'What is this famous tower?',
+        correctAnswer: 'Eiffel Tower',
+        options: ['Eiffel Tower', 'Big Ben', 'CN Tower', 'Burj Khalifa']
       },
       {
         id: 2,
-        question: 'What is the famous tower in Paris?',
-        correctAnswer: 'Eiffel Tower',
-        options: ['Eiffel Tower', 'Big Ben', 'Tower of Pisa', 'Clock Tower']
+        question: 'Which animal is from France?',
+        correctAnswer: 'French Bulldog',
+        options: ['French Bulldog', 'Poodle', 'Moose', 'Kangaroo']
       },
       {
         id: 3,
-        question: 'Which museum has the Mona Lisa?',
-        correctAnswer: 'The Louvre',
-        options: ['The Louvre', 'British Museum', 'Vatican', 'Hermitage']
+        question: 'Which museum is in Paris?',
+        correctAnswer: 'Louvre',
+        options: ['Louvre', 'British Museum', 'Smithsonian', 'Vatican Museum']
       },
       {
         id: 4,
-        question: 'Where do kings and queens live?',
-        correctAnswer: 'Palace',
-        options: ['Palace', 'Castle', 'Tower', 'House']
+        question: 'What is this building?',
+        correctAnswer: 'Notre-Dame Cathedral',
+        options: ['Notre-Dame Cathedral', 'Sagrada Familia', 'St. Peter\'s Basilica', 'Cologne Cathedral']
       }
     ]
   },
@@ -251,56 +255,56 @@ export const countriesData = [
     animal: {
       name: 'Bengal Tiger',
       emoji: '🐯',
-      description: 'A big, striped orange and white cat',
-      fact: 'Bengal Tigers are very strong and have beautiful stripes!'
+      description: 'A big, orange cat with black stripes. Tigers are powerful hunters and are very important to Indian culture and history.',
+      fact: 'Each tiger has unique stripes, just like humans have unique fingerprints!'
     },
     places: [
       {
         id: 1,
         name: 'Taj Mahal',
-        emoji: '🏛️',
-        description: 'A beautiful white marble building',
-        fact: 'It was built as a symbol of love!'
+        emoji: '🕌',
+        description: 'A beautiful white palace made of marble. It was built as a tomb for a princess and is one of the most perfect buildings in the world.',
+        fact: 'The Taj Mahal is one of the New 7 Wonders of the World!'
       },
       {
         id: 2,
-        name: 'Ganges River',
-        emoji: '🌊',
-        description: 'A sacred river where people pray',
-        fact: 'It\'s very important to the people of India!'
+        name: 'India Gate',
+        emoji: '🏛️',
+        description: 'A big stone arch in Delhi that looks like a giant gate. It\'s a monument that honors soldiers who fought in wars.',
+        fact: 'The India Gate is 138 feet tall!'
       },
       {
         id: 3,
-        name: 'Jaipur City',
-        emoji: '🏙️',
-        description: 'The "Pink City" with pink buildings',
-        fact: 'All the buildings are painted pink!'
+        name: 'Himalayan Mountains',
+        emoji: '🏔️',
+        description: 'The biggest mountains in the world! They cover many countries including India and have snow on the top all year long.',
+        fact: 'Mount Everest, the tallest mountain in the world, is part of the Himalayas!'
       }
     ],
     quiz: [
       {
         id: 1,
-        question: 'What big striped cat lives in India?',
-        correctAnswer: 'Bengal Tiger',
-        options: ['Bengal Tiger', 'African Lion', 'Leopard', 'Cheetah']
+        question: 'What is this building?',
+        correctAnswer: 'Taj Mahal',
+        options: ['Taj Mahal', 'India Gate', 'Red Fort', 'Lotus Temple']
       },
       {
         id: 2,
-        question: 'What is the white marble building?',
-        correctAnswer: 'Taj Mahal',
-        options: ['Taj Mahal', 'Hindu Temple', 'Palace', 'Mosque']
+        question: 'Which animal lives in India?',
+        correctAnswer: 'Bengal Tiger',
+        options: ['Bengal Tiger', 'Lion', 'Leopard', 'Cheetah']
       },
       {
         id: 3,
-        question: 'What color is the city of Jaipur?',
-        correctAnswer: 'Pink',
-        options: ['Pink', 'Blue', 'Yellow', 'Green']
+        question: 'What is this?',
+        correctAnswer: 'India Gate',
+        options: ['India Gate', 'Tower Bridge', 'Golden Gate Bridge', 'Brooklyn Bridge']
       },
       {
         id: 4,
-        question: 'Which animal is strong and has stripes?',
-        correctAnswer: 'Bengal Tiger',
-        options: ['Bengal Tiger', 'Zebra', 'Lion', 'Cheetah']
+        question: 'Which mountains are in India?',
+        correctAnswer: 'Himalayas',
+        options: ['Himalayas', 'Andes', 'Alps', 'Rockies']
       }
     ]
   },
@@ -312,56 +316,56 @@ export const countriesData = [
     animal: {
       name: 'Lion',
       emoji: '🦁',
-      description: 'A big powerful cat that roars loudly',
-      fact: 'Male lions have big manes to show how strong they are!'
+      description: 'The king of the animals! Lions are big, strong cats with golden fur. Male lions have big manes around their heads.',
+      fact: 'A lion\'s roar can be heard from 5 miles away!'
     },
     places: [
       {
         id: 1,
         name: 'Table Mountain',
         emoji: '⛰️',
-        description: 'A flat mountain near Cape Town',
-        fact: 'It looks like a table on top of a mountain!'
+        description: 'A flat-topped mountain that overlooks Cape Town. You can take a cable car to the top and see the whole city below.',
+        fact: 'Table Mountain is one of the New 7 Wonders of Nature!'
       },
       {
         id: 2,
         name: 'Kruger National Park',
-        emoji: '🦓',
-        description: 'A big park full of wild animals',
-        fact: 'You can see lions, zebras, giraffes, and elephants here!'
+        emoji: '🦁',
+        description: 'A huge nature reserve where you can see lions, elephants, giraffes, and many other wild animals living freely.',
+        fact: 'Kruger National Park is larger than some countries!'
       },
       {
         id: 3,
-        name: 'Cape of Good Hope',
-        emoji: '🌊',
-        description: 'A rocky point where the ocean meets land',
-        fact: 'Ships used to sail around this point on long journeys!'
+        name: 'Cape Town Waterfront',
+        emoji: '⛵',
+        description: 'A beautiful harbor area in Cape Town with shops, restaurants, and boats. It\'s a fun place to walk and play.',
+        fact: 'The Cape Town Waterfront is one of the most visited places in Africa!'
       }
     ],
     quiz: [
       {
         id: 1,
-        question: 'What big cat roars in South Africa?',
+        question: 'Which animal is the king of the animals?',
         correctAnswer: 'Lion',
-        options: ['Lion', 'Tiger', 'Cheetah', 'Leopard']
+        options: ['Lion', 'Tiger', 'Elephant', 'Bear']
       },
       {
         id: 2,
-        question: 'What mountain looks like a table?',
+        question: 'What is this mountain?',
         correctAnswer: 'Table Mountain',
-        options: ['Table Mountain', 'Mount Kilimanjaro', 'Mount Vesuvius', 'Matterhorn']
+        options: ['Table Mountain', 'Mount Kilimanjaro', 'Table Linen Mountain', 'Chair Mountain']
       },
       {
         id: 3,
-        question: 'Where can you see wild animals?',
+        question: 'Where can you see wild animals in South Africa?',
         correctAnswer: 'Kruger National Park',
-        options: ['Kruger National Park', 'Zoo', 'Forest', 'Desert']
+        options: ['Kruger National Park', 'Central Park', 'Serengeti', 'Yellowstone']
       },
       {
         id: 4,
-        question: 'What does a male lion have on its head?',
-        correctAnswer: 'Mane',
-        options: ['Mane', 'Crown', 'Horns', 'Feathers']
+        question: 'What is a popular place in Cape Town?',
+        correctAnswer: 'Cape Town Waterfront',
+        options: ['Cape Town Waterfront', 'Table Tower', 'Lion Beach', 'Safari Street']
       }
     ]
   },
@@ -373,56 +377,56 @@ export const countriesData = [
     animal: {
       name: 'Red Fox',
       emoji: '🦊',
-      description: 'A clever wild dog with a fluffy tail',
-      fact: 'Red foxes have orange-red fur and are very smart!'
+      description: 'A smart and beautiful animal with red-orange fur and a bushy tail. Foxes are clever hunters that live in the forests and cities.',
+      fact: 'A fox\'s tail helps it balance when it runs and turns quickly!'
     },
     places: [
       {
         id: 1,
         name: 'Big Ben',
-        emoji: '⏰',
-        description: 'A famous tall clock tower in London',
-        fact: 'It\'s called "Big Ben" after the great bell inside!'
+        emoji: '🕐',
+        description: 'A huge clock tower in London. The clock is so big and accurate that it helps people know the exact time all over the world.',
+        fact: 'Big Ben is 316 feet tall and the bell inside weighs 13 tons!'
       },
       {
         id: 2,
-        name: 'Tower of London',
+        name: 'Buckingham Palace',
         emoji: '🏰',
-        description: 'An ancient fortress with crowns and jewels',
-        fact: 'Ravens live here and are said to protect it!'
+        description: 'The home of the King or Queen of England. It\'s an enormous palace with 775 rooms and beautiful gardens.',
+        fact: 'Buckingham Palace has 40 bedrooms and 78 bathrooms!'
       },
       {
         id: 3,
-        name: 'Stonehenge',
-        emoji: '🪨',
-        description: 'Mysterious giant stones in a circle',
-        fact: 'Nobody knows exactly why it was built!'
+        name: 'Tower Bridge',
+        emoji: '🌉',
+        description: 'A famous bridge over the River Thames in London. It has two towers and the middle lifts up to let ships pass under.',
+        fact: 'Tower Bridge was built in 1894 and is still working perfectly today!'
       }
     ],
     quiz: [
       {
         id: 1,
-        question: 'What clever animal lives in the UK?',
-        correctAnswer: 'Red Fox',
-        options: ['Red Fox', 'Badger', 'Rabbit', 'Squirrel']
+        question: 'What is this famous clock?',
+        correctAnswer: 'Big Ben',
+        options: ['Big Ben', 'Small Ben', 'Big Bill', 'Grand Clock']
       },
       {
         id: 2,
-        question: 'What is the famous clock tower?',
-        correctAnswer: 'Big Ben',
-        options: ['Big Ben', 'Clock Tower', 'Bell Tower', 'Time Tower']
+        question: 'Which animal is from the United Kingdom?',
+        correctAnswer: 'Red Fox',
+        options: ['Red Fox', 'Kangaroo', 'Moose', 'Bengal Tiger']
       },
       {
         id: 3,
-        question: 'What are the giant stones called?',
-        correctAnswer: 'Stonehenge',
-        options: ['Stonehenge', 'Stone Circle', 'Rock Park', 'Giant Rocks']
+        question: 'Whose home is Buckingham Palace?',
+        correctAnswer: 'King or Queen',
+        options: ['King or Queen', 'Prime Minister', 'Mayor', 'President']
       },
       {
         id: 4,
-        question: 'What color is a red fox?',
-        correctAnswer: 'Orange-red',
-        options: ['Orange-red', 'Red', 'Brown', 'White']
+        question: 'What is this bridge?',
+        correctAnswer: 'Tower Bridge',
+        options: ['Tower Bridge', 'Brooklyn Bridge', 'Golden Gate Bridge', 'London Bridge']
       }
     ]
   },
@@ -430,60 +434,60 @@ export const countriesData = [
     id: 8,
     name: 'United States',
     flag: '🇺🇸',
-    color: '#B22234',
+    color: '#002868',
     animal: {
       name: 'Bald Eagle',
       emoji: '🦅',
-      description: 'A large bird with a white head and strong wings',
-      fact: 'Bald Eagles can see fish in the water from very high up!'
+      description: 'A big bird with a white head, dark body, and strong wings. The Bald Eagle is the national bird of the United States.',
+      fact: 'A Bald Eagle can see a fish from two miles away!'
     },
     places: [
       {
         id: 1,
         name: 'Statue of Liberty',
         emoji: '🗽',
-        description: 'A giant green statue holding a torch',
-        fact: 'It welcomes people coming to New York by ship!'
+        description: 'A huge copper statue of a lady holding a torch. She stands on an island in New York and welcomes people to America.',
+        fact: 'The Statue of Liberty is 305 feet tall from the ground to the top of her torch!'
       },
       {
         id: 2,
         name: 'Grand Canyon',
         emoji: '🏜️',
-        description: 'A huge, colorful canyon with layers of rock',
-        fact: 'It\'s so deep and wide you can barely see the bottom!'
+        description: 'A massive canyon with colorful layers of rock carved by a river over millions of years. It\'s one of nature\'s greatest wonders.',
+        fact: 'The Grand Canyon is so big, you can see rocks that are 2 billion years old!'
       },
       {
         id: 3,
-        name: 'White House',
-        emoji: '🏛️',
-        description: 'The home of the President of the USA',
-        fact: 'It has 132 rooms inside!'
+        name: 'Mount Rushmore',
+        emoji: '🗻',
+        description: 'A mountain with four giant faces of American presidents carved into it. It took 14 years and many workers to carve.',
+        fact: 'Each face on Mount Rushmore is as tall as a 6-story building!'
       }
     ],
     quiz: [
       {
         id: 1,
-        question: 'What bird is the symbol of the USA?',
-        correctAnswer: 'Bald Eagle',
-        options: ['Bald Eagle', 'Hawk', 'Owl', 'Raven']
+        question: 'What is this statue?',
+        correctAnswer: 'Statue of Liberty',
+        options: ['Statue of Liberty', 'Statue of Justice', 'Statue of Freedom', 'Statue of America']
       },
       {
         id: 2,
-        question: 'What is the green statue in New York?',
-        correctAnswer: 'Statue of Liberty',
-        options: ['Statue of Liberty', 'Statue of Freedom', 'America Statue', 'Peace Statue']
+        question: 'Which bird is the national bird of the USA?',
+        correctAnswer: 'Bald Eagle',
+        options: ['Bald Eagle', 'Golden Eagle', 'Hawk', 'Falcon']
       },
       {
         id: 3,
-        question: 'What is the huge canyon called?',
+        question: 'What is this famous canyon?',
         correctAnswer: 'Grand Canyon',
-        options: ['Grand Canyon', 'Big Canyon', 'Stone Canyon', 'Red Canyon']
+        options: ['Grand Canyon', 'Black Canyon', 'Canyon Valley', 'Stone Canyon']
       },
       {
         id: 4,
-        question: 'What is the White House?',
-        correctAnswer: 'President\'s Home',
-        options: ['President\'s Home', 'Museum', 'Castle', 'Palace']
+        question: 'Where are four presidential faces carved?',
+        correctAnswer: 'Mount Rushmore',
+        options: ['Mount Rushmore', 'Mount Jackson', 'Mount Lincoln', 'Mount Washington']
       }
     ]
   },
@@ -495,56 +499,56 @@ export const countriesData = [
     animal: {
       name: 'Alpine Ibex',
       emoji: '🐐',
-      description: 'A mountain goat with long curved horns',
-      fact: 'Alpine Ibex can climb very steep mountains!'
+      description: 'A wild goat with long curved horns that lives high in the mountains. They jump and climb better than any other animal!',
+      fact: 'Alpine Ibex can jump 20 feet up and down steep cliffs without falling!'
     },
     places: [
       {
         id: 1,
-        name: 'Swiss Alps',
-        emoji: '🏔️',
-        description: 'Beautiful snowy mountains',
-        fact: 'They are perfect for skiing and hiking!'
+        name: 'Matterhorn',
+        emoji: '⛰️',
+        description: 'One of the most beautiful and famous mountains in the world. It looks like a giant pyramid of rock and snow.',
+        fact: 'The Matterhorn is 14,692 feet tall and is a favorite mountain for climbers!'
       },
       {
         id: 2,
-        name: 'Matterhorn',
-        emoji: '⛰️',
-        description: 'A famous pyramid-shaped mountain',
-        fact: 'It looks like a giant triangle!'
+        name: 'Lake Geneva',
+        emoji: '🏞️',
+        description: 'A large, beautiful lake surrounded by mountains. It\'s one of the biggest lakes in Europe and very clean and clear.',
+        fact: 'Lake Geneva is so big that people call it the "Inland Sea"!'
       },
       {
         id: 3,
-        name: 'Swiss Lakes',
-        emoji: '🌊',
-        description: 'Clear blue lakes in the mountains',
-        fact: 'The water is so clear you can see the bottom!'
+        name: 'Swiss Alps',
+        emoji: '🏔️',
+        description: 'Mountains covered with snow and ice that are perfect for skiing. Thousands of people come to Switzerland to ski here.',
+        fact: 'The Swiss Alps have over 50 ski resorts and slopes for all skill levels!'
       }
     ],
     quiz: [
       {
         id: 1,
-        question: 'What mountain animal lives in Switzerland?',
+        question: 'Which animal lives in the Swiss Alps?',
         correctAnswer: 'Alpine Ibex',
-        options: ['Alpine Ibex', 'Mountain Lion', 'Bear', 'Wolf']
+        options: ['Alpine Ibex', 'Moose', 'Mountain Lion', 'Alpine Hare']
       },
       {
         id: 2,
-        question: 'What shape is the Matterhorn?',
-        correctAnswer: 'Triangle',
-        options: ['Triangle', 'Square', 'Circle', 'Diamond']
+        question: 'What is this famous mountain?',
+        correctAnswer: 'Matterhorn',
+        options: ['Matterhorn', 'Mount Blanc', 'Mont Rosa', 'Gran Paradiso']
       },
       {
         id: 3,
-        question: 'What are the mountains in Switzerland?',
-        correctAnswer: 'Swiss Alps',
-        options: ['Swiss Alps', 'Rocky Mountains', 'Andes', 'Himalayas']
+        question: 'What is this lake?',
+        correctAnswer: 'Lake Geneva',
+        options: ['Lake Geneva', 'Lake Zurich', 'Lake Lucerne', 'Lake Thun']
       },
       {
         id: 4,
-        question: 'Where do Alpine Ibex climb?',
-        correctAnswer: 'Mountains',
-        options: ['Mountains', 'Trees', 'Rocks', 'Cliffs']
+        question: 'Where do people ski in Switzerland?',
+        correctAnswer: 'Swiss Alps',
+        options: ['Swiss Alps', 'Jura Mountains', 'Mittelland', 'Alpine Plateau']
       }
     ]
   },
@@ -556,56 +560,56 @@ export const countriesData = [
     animal: {
       name: 'Red Panda',
       emoji: '🐼',
-      description: 'A small cute animal with red fur and a fluffy tail',
-      fact: 'Red pandas are endangered and live in bamboo forests!'
+      description: 'A small, cute animal with red fur and a big fluffy tail. Red Pandas are gentle and love to eat bamboo like bigger pandas.',
+      fact: 'Red Pandas have special paws with sharp claws that help them climb trees perfectly!'
     },
     places: [
       {
         id: 1,
-        name: 'Mount Fuji',
-        emoji: '🗻',
-        description: 'A beautiful snow-capped volcanic mountain',
-        fact: 'It\'s the tallest mountain in Japan!'
+        name: 'Tokyo Tower',
+        emoji: '🗼',
+        description: 'A tall red tower in Tokyo that looks like the Eiffel Tower. From the top, you can see the whole city and sometimes Mount Fuji!',
+        fact: 'Tokyo Tower is 1,092 feet tall and lights up in different colors at night!'
       },
       {
         id: 2,
-        name: 'Tokyo Tower',
-        emoji: '🗼',
-        description: 'A red tower in Tokyo that\'s very tall',
-        fact: 'You can see the whole city from the top!'
+        name: 'Mount Fuji',
+        emoji: '🗻',
+        description: 'Japan\'s most famous mountain with a beautiful snow-covered peak. It\'s a sacred mountain that appears on many Japanese paintings.',
+        fact: 'Mount Fuji is so perfect and beautiful that poets have written thousands of poems about it!'
       },
       {
         id: 3,
-        name: 'Fushimi Inari Shrine',
-        emoji: '⛩️',
-        description: 'A shrine with thousands of red gates',
-        fact: 'Walking through the gates feels like magic!'
+        name: 'Great Buddha',
+        emoji: '🧘',
+        description: 'A giant bronze statue of Buddha sitting peacefully. It\'s over 750 years old and is one of Japan\'s most important treasures.',
+        fact: 'The Great Buddha is 43 feet tall and weighs 121 tons!'
       }
     ],
     quiz: [
       {
         id: 1,
-        question: 'What cute animal lives in Japan?',
+        question: 'Which animal is from Japan?',
         correctAnswer: 'Red Panda',
-        options: ['Red Panda', 'Giant Panda', 'Regular Panda', 'Koala']
+        options: ['Red Panda', 'Giant Panda', 'Moose', 'Toucan']
       },
       {
         id: 2,
-        question: 'What is Japan\'s tallest mountain?',
-        correctAnswer: 'Mount Fuji',
-        options: ['Mount Fuji', 'Mount Everest', 'Mount Kilimanjaro', 'Mount Vesuvius']
+        question: 'What is this tower in Tokyo?',
+        correctAnswer: 'Tokyo Tower',
+        options: ['Tokyo Tower', 'Tokyo Pagoda', 'Tokyo Spire', 'Tokyo Beacon']
       },
       {
         id: 3,
-        question: 'What is the red tower in Tokyo?',
-        correctAnswer: 'Tokyo Tower',
-        options: ['Tokyo Tower', 'Tokyo Gate', 'Tokyo Bridge', 'Tokyo Monument']
+        question: 'What is Japan\'s most famous mountain?',
+        correctAnswer: 'Mount Fuji',
+        options: ['Mount Fuji', 'Mount Takao', 'Mount Aso', 'Mount Shinran']
       },
       {
         id: 4,
-        question: 'What color is a red panda?',
-        correctAnswer: 'Red',
-        options: ['Red', 'Black', 'White', 'Orange']
+        question: 'What is this statue?',
+        correctAnswer: 'Great Buddha',
+        options: ['Great Buddha', 'Golden Buddha', 'Temple Buddha', 'Holy Buddha']
       }
     ]
   }
