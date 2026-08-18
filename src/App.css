@@ -1,0 +1,24 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #FFF8F3 0%, #FFE8DC 50%, #E8F4F8 100%);
+}
+
+.page-enter {
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
